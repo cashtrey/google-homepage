@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(53, 54, 58)
+}
+.center {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.topbar {
+    display: flex;
+    flex-direction: row;
+
+}
+.topbar-item {
+    margin-right: 20px;
+}
+.lil-pic {
+    width: 22px;
+}
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nav-item {
+    margin-left: 20px;
+    padding: 15px;
+    border-radius: 50%;
+}
+.med-pic {
+    border-radius: 50%;
+    width: 25px;
+}
+#search {
+    display: flex;
+    width: 500px;
+    height: 35px;
+    border-radius: 30px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.recents {
+    padding: 35px;
+    border-radius: 50%;
+}
